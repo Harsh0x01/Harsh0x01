@@ -1,22 +1,31 @@
-<h1 align="center">Harsh Vardhan Sahu</h1>
-<h3 align="center">Staff AI Engineer & Data Architect</h3>
+# Harsh Vardhan Sahu
 
-<p align="center">
-Architecting high-performance data systems and scalable machine learning pipelines.<br>Bridging the gap between advanced AI research and enterprise-scale production.
-</p>
+**Data Science Undergrad | Building Production-Grade ML Systems**
+
+I build full-stack AI systems end-to-end — not just notebooks.
+Currently exploring GenAI, RAG pipelines, and applied ML for real products.
+
+---
+
+## 🚀 What I'm Building
+
+**CustomerIQ** — AI-driven customer intelligence platform
+`FastAPI · XGBoost · SHAP · GraphRAG · MLflow · Evidently AI`
+NL-to-SQL querying + drift-monitored ML pipelines, built from data layer to inference.
+
+**ResumePro** — ATS resume optimization engine
+`FastAPI · spaCy · SentenceTransformers · Local LLM (Ollama/Phi3.5) · React`
+Semantic scoring + AI-powered resume rewriting, running fully offline.
 
 ---
 
-### 🏛️ Core Architecture & Engineering
-- **Enterprise AI Systems:** Designing full-stack, AI-driven platforms with integrated NLP and predictive product analytics.
-- **Data Infrastructure:** Engineering robust ETL/ELT pipelines, distributed databases, and optimizing complex high-throughput SQL.
-- **MLOps & Scalability:** Deploying resilient, low-latency deep learning models into production environments.
+## 🛠️ Stack
 
-### 💼 Technical Expertise
-- **Languages:** Python, C++, Java, C, Advanced SQL
-- **AI & Deep Learning:** PyTorch, TensorFlow, Keras, Scikit-Learn, NLP
-- **Data Engineering:** PostgreSQL, MySQL, MongoDB, MS SQL Server, Pandas, NumPy
-- **Ecosystem:** React, Git, Data Architecture
+**Languages:** Python, C++, Java, SQL
+**ML/DL:** PyTorch, TensorFlow, Scikit-learn, NLP
+**Data:** PostgreSQL, MongoDB, Pandas, NumPy
+**Tools:** React, Git, MLflow
 
 ---
-*For consulting, architectural reviews, or strategic collaborations, connect with me via [LinkedIn](https://linkedin.com/in/your-profile).*
+
+📫 Open to Data Science / ML internships & collabs → [LinkedIn](https://www.linkedin.com/in/harsh-vardhan-sahu-6a4391294/)
