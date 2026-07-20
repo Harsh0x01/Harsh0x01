@@ -1,5 +1,6 @@
 <h1 align="center">Harsh Vardhan Sahu</h1>
-<p align="center"><b>Data Science Undergrad — building full-stack ML systems, not notebooks</b></p>
+<p align="center"><b>Data Science Undergrad · Full-Stack ML Systems</b></p>
+<p align="center"><i>I build the boring parts too — APIs, databases, auth, monitoring — not just the model.</i></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -11,29 +12,28 @@
 
 ---
 
-Most student portfolios stop at model.fit() in a Jupyter notebook. Mine don't — every project below has a real API layer, a real database, and a reason it would survive contact with actual users.
+### Why these projects exist
+Most ML portfolios end at `model.fit()` in a notebook. Mine ship as APIs with real data layers, explainability, and drift monitoring — because a model nobody can query, trust, or watch decay isn't a product.
 
 ## Projects
 
-### `CustomerIQ` — AI-driven customer intelligence platform
-An end-to-end ML system for customer analytics: churn/segmentation models (XGBoost, KMeans) served behind a FastAPI backend, with SHAP-based explainability so predictions aren't a black box.
-- **NL-to-SQL + GraphRAG** layer — ask questions in plain English, get answers grounded in the actual data graph, not hallucinated
-- **MLflow** for experiment tracking, **Evidently AI** for live model drift detection, **Celery** for async training jobs
-- Frontend redesigned with a Bloomberg-Terminal-inspired dark UI
+### [`CustomerIQ`](https://github.com/Harsh0x01) — AI-driven customer intelligence platform
+Churn and segmentation models (XGBoost, KMeans) served behind FastAPI, with SHAP explainability so every prediction comes with a "why."
+- **NL-to-SQL + GraphRAG** — ask a question in plain English, get an answer grounded in the actual data graph
+- **Evidently AI** for live drift detection, **MLflow** for experiment tracking, **Celery** for async training
+- Bloomberg-Terminal-inspired dark UI, built for analysts who live in dashboards
 - `FastAPI · Supabase/PostgreSQL · XGBoost · SHAP · MLflow · Evidently AI · Celery`
 
-### `ResumePro` — ATS resume optimization engine
-A scoring engine that evaluates resumes against weighted, ATS-relevant categories, then rewrites weak sections using a **locally-hosted LLM** (Ollama/Phi3.5) — no OpenAI API key, no data leaving the machine.
-- Semantic matching via SentenceTransformers + spaCy NLP pipeline
-- Before/After rewrite view so the improvement is visible, not just a score
+### [`ResumePro`](https://github.com/Harsh0x01) — ATS resume optimization engine
+Scores resumes against weighted ATS categories and rewrites weak sections with a **locally-hosted LLM** (Ollama/Phi3.5) — zero external API calls, zero data leaving the machine.
+- SentenceTransformers + spaCy for semantic matching
+- Before/After view — the improvement is visible, not just a number
 - `FastAPI · spaCy · SentenceTransformers · Ollama/Phi3.5 · React/Vite`
 
-### `5th Element Fitness Club` — gym management platform
-Full production backend, built solo: JWT auth with role-based access (Admin/Trainer/User), Razorpay payment integration, Redis-backed Celery task queue, structured logging.
-- `Next.js · FastAPI · PostgreSQL (Neon) · Redis · Celery · JWT · Razorpay`
-
-### `ResearchRelay` *(in progress)* — multi-agent research system
-A planner agent breaks a query into sub-tasks, researcher agents gather sources in parallel over MCP tool servers, a critic agent checks claims against sources, a writer agent compiles the final report. Built to go deep on agentic architecture, not just call an agent framework and stop.
+### [`ResearchRelay`](https://github.com/Harsh0x01) *(building now)* — multi-agent research system
+Planner → Researcher(s) → Critic → Writer, coordinated over MCP tool servers. The Critic agent's whole job is catching the other agents' hallucinations before the report ships.
+- Going deep on agent orchestration from first principles, not just wiring up a framework
+- `Python · MCP · LLM orchestration`
 
 ---
 
@@ -44,12 +44,12 @@ A planner agent breaks a query into sub-tasks, researcher agents gather sources 
 | **Languages** | Python, C++, Java, SQL |
 | **ML / DL** | PyTorch, TensorFlow, Scikit-learn, NLP |
 | **Data** | PostgreSQL, MongoDB, Redis, Pandas, NumPy |
-| **Backend** | FastAPI, Celery, JWT/RBAC |
+| **Backend** | FastAPI, Celery |
 | **Frontend** | React, Next.js |
 | **Tooling** | Git, MLflow, Docker |
 
 ---
 
 <p align="center">
-📫 Open to Data Science / ML internship opportunities — <a href="https://www.linkedin.com/in/harsh-vardhan-sahu-6a4391294/">LinkedIn</a>
+📫 Open to Data Science / ML internships & collaborations — <a href="https://www.linkedin.com/in/harsh-vardhan-sahu-6a4391294/">LinkedIn</a>
 </p>
